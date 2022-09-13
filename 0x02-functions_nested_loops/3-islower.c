@@ -16,5 +16,5 @@ int _islower(int c)
 			lower = 1;
 	}
 
-	retrun (lower);
+	return (lower);
 }
