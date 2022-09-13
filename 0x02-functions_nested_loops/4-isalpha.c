@@ -7,20 +7,9 @@
  */
 int _isalpha(int c)
 {
-	char lower, upper;
-	int lwr = 0
-
-	for (lower = 'a'; lower <= 'z'; lower++)
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		for (upper = 'A'; lower <= 'Z'; upper++)
-		{
-			if (c == lower || c == upper)
-			{
-				return (1);
-				else 
-				{
-					return (0);
-				}
-			}
-		}
+		return (1);
+	}
+	return (0);
 }
