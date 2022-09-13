@@ -8,6 +8,7 @@
 int _isalpha(int c)
 {
 	char lower, upper;
+	int lwr = 0
 
 	for (lower = 'a'; lower <= 'z'; lower++)
 	{
@@ -16,8 +17,10 @@ int _isalpha(int c)
 			if (c == lower || c == upper)
 			{
 				return (1);
+				else 
+				{
+					return (0);
+				}
 			}
 		}
-	}
-	return (0);
 }
