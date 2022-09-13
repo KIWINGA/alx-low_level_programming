@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - Refer to main
- * @c - input character
+ * c - input character
  * Description: _putchar function prints out
  * Return: 1 if lowercase or 0 if uppercase
  */
