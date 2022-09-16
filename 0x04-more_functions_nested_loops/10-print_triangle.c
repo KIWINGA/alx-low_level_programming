@@ -2,26 +2,26 @@
 /**
  * print_triangle - prints triangle
  * @size: size of triangle
+ * Return: Always 0
  */
 void print_triangle(int size)
 {
-	int inc1, inc2;
-	if (size > 0)
+	int i, j;
+
+	for (i = 0; i < size; i++)
 	{
-		for (inc1 - 1; inc <= size, inc1++)
+		for (j = 1; j < (size - i); j++)
 		{
-			for ((inc2 = size - inc1); inc 2 > 0; inc2--)
-			{
-				_putchar(' ');
-			}
-			for (inc2 = 0; inc 2 < inc1; inc2++)
-			{
-				_putchar('#');
-			}
-			if (inc1 == size)
-			{ 
-				continue;
-			}
+			_putchar(' ');
 		}
+		for (j--; j < size; j++)
+		{
+			_putchar(35);
+		}
+		if (i < (size - 1))
+		{
+			_putchar('\n');
+		}
+		_putchar('\n');
 	}
 }
