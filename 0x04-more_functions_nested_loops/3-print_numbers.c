@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * ptint_numbers - prints numbers
+ * print_numbers - prints numbers
  * Return: Always 0
  */
 void print_numbers(void)
@@ -11,7 +11,7 @@ void print_numbers(void)
 	
 	for (ch = 48; ch < 58; ch++)
 	{
-		_putchar(ch);
+		putchar(ch);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
