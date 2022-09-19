@@ -4,7 +4,7 @@
  * @str: integer string
  * Return: Nothing
  */
-void puts2(char *str);
+void puts2(char *str)
 {
         int len = 0, i = 0;
 
