@@ -27,7 +27,7 @@ void print_number(int n)
 
 	while (abSCount > 0)
 	{
-		abSCounty /= 10;
+		abSCount /= 10;
 		c++;
 	}
 	for (i = 0; i < c; i++)
