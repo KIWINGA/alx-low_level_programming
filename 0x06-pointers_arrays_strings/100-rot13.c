@@ -2,7 +2,7 @@
 /**
 *rot13 - functon encoding a string
 *@s: an input string
-*Return: encoded string
+*Return: encoded strings
 */
 char *rot13(char *s)
 {
