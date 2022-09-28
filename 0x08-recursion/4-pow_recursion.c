@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _pow_recursion - prints value of x raised tot he pwoer of y
- * @x - input integer
- * @y - input integer
+ * @x: base integer
+ * @y: exponent integer
  * Return: -1 if y is lower than 0, otherwise return value
  */
 int _pow_recursion(int x, int y)
