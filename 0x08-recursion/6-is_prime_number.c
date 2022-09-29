@@ -2,11 +2,11 @@
 int is_divisible(int num, int div);
 
 /**
- * is_prime_number - fucntion checking for prime numbers
- * @n: input integer
+ *is_prime_number - fucntion checking for prime numbers
+ *@n: input integer
  *Return: 1 if n is prime, 0 otherwise
  */
- int is_prime_number(int n)
+int is_prime_number(int n)
 {
 	int div = 2;
 
