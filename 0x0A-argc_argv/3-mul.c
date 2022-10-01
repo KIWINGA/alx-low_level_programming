@@ -5,7 +5,7 @@
 * main - program tha tmultiplies two numbers
 * @argc: number of arguments
 * @argv: array of arguments
-* Return: If no arguments received print Error, new line and return 1, otherwise 0
+* Return: If no arguments received print Error, return 1, otherwise 0
 */
 int main(int argc, char *argv[])
 {
