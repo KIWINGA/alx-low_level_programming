@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * _strdup - returns pointer to a new string
