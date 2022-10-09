@@ -19,7 +19,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	while (s1[lens1])
 	{
-		lens++;
+		lens1++;
 	}
 	if (s2 == NULL)
 	{
