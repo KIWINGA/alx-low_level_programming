@@ -6,7 +6,7 @@
  * @b: unsigned integer
  * Return: Pointer to allocated memory, otherwise NULL
  */
-void *malloc_chekced(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	void *s;
 
@@ -17,4 +17,3 @@ void *malloc_chekced(unsigned int b)
 
 	return (s);
 }
-
