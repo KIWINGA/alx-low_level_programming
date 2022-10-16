@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _realloc - reallocates memory block using malloc
- * @str: pointer ot allocated memory
+ * @ptr: pointer ot allocated memory
  * @old_size: old size in bytes
  * @new_size: new size in bytes
  * Return: void printer to a new location
@@ -11,6 +11,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *new_location, *new_ptr;
 	unsigned int i = 0;
+
 	if (new_size == old_size)
 	{
 		return (ptr);
